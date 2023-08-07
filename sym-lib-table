@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CD40106B")(type "KiCad")(uri "${KIPRJMOD}/CD40106BE/CD40106BE.kicad_sym")(options "")(descr ""))
+  (lib (name "TL074")(type "KiCad")(uri "${KIPRJMOD}/TL074CN/TL074CN.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,21 @@
+Oscilador controlado por voltaje con núcleo diente de sierra:
+* Entradas:
+	* CV: Control por voltaje externo.
+	* FM: Entrada para modulación por frecuencia externa.
+	* PWM: Control de ancho de pulso de la señal PWM de forma externa.
+* Salidas:
+	* SAW: Señal diente de sierra generada.
+	* SQR: Señal cuadrada simétrica.
+	* PWM: Señal cuadrada con ancho de pulso regulable.
+	* TRI: Señal triangular.
+* Controles:
+	* Coarse: Control de frecuencia base del oscilador.
+	* Fine: Control fino de la frecuencia base del oscilador.
+	* FM MOD: Control de la amplitud de entrada de la señal moduladora y como ataca al oscilador.
+	* PWM MOD IN: Control de la amplitud de entrada de la señal moduladora del PWM.
+	* PWM MOD: Control manual del ancho de pulso del PWM.
+* Dimensiones:
+	* Ancho: n*HP = n*5.08mm.
+	* Alto: 110mm (3U, 128.5mm-18.5mm).
+* El montaje de las entradas y los componentes de control deben estar en la capa superior.
+* R27 y R28 deben tener valores lo más próximos posible para minimizar la distorsión de la señal triangular.
